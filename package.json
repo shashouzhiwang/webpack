@@ -1,0 +1,54 @@
+{
+  "name": "test",
+  "sideEffects": false,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "webpack",
+    "watch": "webpack-dev-server",
+    "middleware": "node server.js",
+    "build": "webpack --config webpack.config.js",
+    "server": "webpack-dev-server --config webpack.config.dev.js",
+    "dev": "webpack-dev-server --port 8082 --devtool eval --config webpack.config.js --progress --colors --hot --content-base build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/runtime": "^7.5.5",
+    "@babel/runtime-corejs3": "^7.5.5",
+    "autoprefixer": "^9.6.1",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "core-js": "3",
+    "css-loader": "^3.2.0",
+    "express": "^4.17.1",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.12.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.2.0",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.1.0",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-middleware": "^3.7.0",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "add": "^2.0.6",
+    "webpack": "^4.39.2",
+    "yarn": "^1.17.3"
+  },
+  "browserslist": [
+    "Edge 16",
+    "IE 8",
+    "CHROME 35",
+    "defaults"
+  ]
+}

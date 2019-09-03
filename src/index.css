@@ -1,0 +1,8 @@
+.avatar{
+    width: 100px;
+    height: 100px;
+}
+
+.autoplacement-example {
+    transform: translate(100px, 100px);
+}
